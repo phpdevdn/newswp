@@ -1,0 +1,155 @@
+body {
+  background-color: #eee;
+  position: relative; }
+
+img {
+  max-width: 100%; }
+
+p {
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0; }
+
+.starter-template {
+  padding: 40px 10px;
+  text-align: center; }
+
+.dropdown-menu {
+  border-radius: 0;
+  box-shadow: none; }
+
+.btn {
+  border-radius: 0; }
+
+#header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0; }
+
+#footer {
+  clear: both;
+  padding: 30px 0;
+  margin: 20px 0 0;
+  background: #333;
+  color: #fff; }
+
+#main {
+  background: #fff; }
+
+.left-block {
+  float: left;
+  width: 70%;
+  margin: 0;
+  padding: 20px; }
+
+ul,ol {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+ol.children {
+    margin: 0 0 0 20px;
+}
+
+.right-block {
+  float: right;
+  width: 30%;
+  margin: 0;
+  padding: 20px 10px; }
+
+.post-ele {
+  margin: 0 0 30px 0; }
+
+.comment-form .form-group {
+    margin: 0 -15px;
+    margin-bottom: 15px;
+}
+
+.comment-form .form-group:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+  .post-ele h2 {
+    border-bottom: 2px solid #333;
+    padding: 0 0 10px 0; }
+  .post-ele img {
+    margin: 10px 0;
+    width: 100%; }
+
+.meta-pos {
+  background: #ddd;
+  padding: 5px 10px;
+  margin: 10px 0; }
+  .meta-pos span {
+    display: inline-block;
+    margin: 0 3px 0 10px; }
+
+.widget {
+  margin: 0;
+  padding: 0px;
+  border: 1px solid #ddd; 
+  margin: 5px 0;
+}
+  .widget h3 {
+    margin: 0px 0 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff; }
+  .widget ul {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    background: none; 
+    list-style: none;
+    padding: 5px;
+}
+    .widget ul li {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      padding: 5px 10px 5px;
+      margin: 0 0 5px 0;
+      background: none; }
+      .widget ul li:last-child {
+        border-bottom: none; }
+
+.navbar-top li.active a {
+  background: #666 !important;
+  color: #fff !important; }
+
+.navbar-top li:hover a,.navbar-top li.current-menu-item a {
+  background: #666 !important;
+  color: #fff !important; }
+
+@media screen and (min-width: 1200px) {
+  .container-fluid {
+    width: 1000px; } }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .left-block {
+    width: 100%; }
+  .right-block {
+    width: 100%; } }
+#wp-calendar{
+    width: 100%;
+  
+    margin: 10px;
+}
+.comment-list li{
+  border-bottom:1px solid #ddd;
+  padding:0 0 10px;
+  margin:5px 0;
+}
+
+.comment-metadata {
+    border-top: 1px solid #ddd;
+    padding: 4px;
+    margin: 5px 0;
+}
+
+.comment-meta {
+    background-color: #eee;
+    padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
